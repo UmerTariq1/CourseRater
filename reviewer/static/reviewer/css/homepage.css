@@ -1,0 +1,7 @@
+.footer {
+  height: 100px; /* Set the height of the footer */
+  background-color: #f2f2f2; /* Set footer background color */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

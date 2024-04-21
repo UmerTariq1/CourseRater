@@ -1,0 +1,42 @@
+.review-comment {
+    white-space: pre-wrap; /* Preserves spaces and line breaks */
+    color: #333; /* Dark gray text */
+    padding: 10px; /* Add some padding */
+    background-color: #f8f9fa; /* Light gray background similar to textarea */
+}
+
+/* Remove default textarea styles */
+textarea.form-control[readonly] {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    box-shadow: none;
+}
+
+.other_reviews{
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 10px;
+}
+.other_reviews:hover {
+    background-color: #dcd9d9;
+    cursor: pointer;
+
+}
+.other_reviews:hover {
+    background-color: #dcd9d9;  /* Match the hover background of the parent */
+    cursor: pointer;
+
+}
+
+.resizable_textarea {
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+    overflow: auto;
+}
+.footer {
+    height: 100px; /* Set the height of the footer */
+    background-color: #f2f2f2; /* Set footer background color */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
